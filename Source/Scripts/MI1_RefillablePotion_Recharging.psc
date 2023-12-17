@@ -6,7 +6,6 @@ GlobalVariable Property MI1_RefillableHealthPotion_Global_MaxCharges Auto
 
 GlobalVariable Property MI1_RefillableMagickaPotion_Global_MaxCharges Auto
 
-
 GlobalVariable Property MI1_RefillableStaminaPotion_Global_MaxCharges Auto
 
 
