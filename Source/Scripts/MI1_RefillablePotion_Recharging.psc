@@ -13,6 +13,8 @@ MiscObject Property MI1_MiscItem_RefillableHealthPotion auto
 MiscObject Property MI1_MiscItem_RefillableMagickaPotion auto
 MiscObject Property MI1_MiscItem_RefillableStaminaPotion auto
 
+MiscObject Property MI1_MiscItem_RefillableHealthPotion2 auto
+
 Quest Property MI1_RefillablePotion_Quest_ChargeCount Auto
 
 Function UpdateName(MI1_RefillablePotion_ChargeCount item)
@@ -26,6 +28,7 @@ Function LoadSettings(bool force)
 	if force || item.RefillableHealthPotion_Charges == -1 
 		item.RefillableHealthPotion_Charges = MI1_RefillableHealthPotion_Global_MaxCharges.GetValue() as int
 		MI1_MiscItem_RefillableHealthPotion.SetName("Refillable Health Potion ("+item.RefillableHealthPotion_Charges as int+"/"+MI1_RefillableHealthPotion_Global_MaxCharges.GetValue() as int+")")
+		MI1_MiscItem_RefillableHealthPotion2.SetName("Refillable Health Potion 2 ("+item.RefillableHealthPotion_Charges as int+"/"+MI1_RefillableHealthPotion_Global_MaxCharges.GetValue() as int+")")
 	endif
 
 	if force || item.RefillableMagickaPotion_Charges == -1 
