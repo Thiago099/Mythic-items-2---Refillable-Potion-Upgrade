@@ -2,14 +2,11 @@ Scriptname MI1_RefillablePotion_Recharging extends activemagiceffect
 
 GlobalVariable Property MI1_RefillablePotion_Global_CoolDown Auto
 
-GlobalVariable Property MI1_RefillableHealthPotion_Global_Magnitude Auto
 GlobalVariable Property MI1_RefillableHealthPotion_Global_MaxCharges Auto
 
-GlobalVariable Property MI1_RefillableMagickaPotion_Global_Magnitude Auto
 GlobalVariable Property MI1_RefillableMagickaPotion_Global_MaxCharges Auto
 
 
-GlobalVariable Property MI1_RefillableStaminaPotion_Global_Magnitude Auto
 GlobalVariable Property MI1_RefillableStaminaPotion_Global_MaxCharges Auto
 
 
